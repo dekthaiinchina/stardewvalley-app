@@ -9,12 +9,12 @@ const nextConfig = {
     return [
       {
         source: "/discord",
-        destination: "https://discord.gg/9K3TgZaPkT",
+        destination: "https://discord.gg/x9YKXvKFpV",
         permanent: true,
       },
       {
         source: "/github",
-        destination: "https://github.com/communitycenter/stardew.app",
+        destination: "https://github.com/dekthaiinchina/stardewvalley-app",
         permanent: true,
       },
       {
@@ -64,8 +64,8 @@ module.exports = withSentryConfig(
 
     // Suppresses source map uploading logs during build
     silent: true,
-    org: "communitycenter",
-    project: "stardewapp",
+    org: "stardewvalley-app",
+    project: "stardewvalley-app",
   },
   {
     // For all available options, see:
